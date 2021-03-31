@@ -13,8 +13,7 @@ class ContentModel: ObservableObject {
     var styleData: Data?
     
     init() {
-        
-        getLocalData()
+            getLocalData()
     }
     
     func getLocalData() {
